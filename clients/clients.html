@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML lang="fr">
+
+<HEAD>
+<meta charset="UTF-8">
+<TITLE>TEST</TITLE>
+<!--style type="text/css">
+h1 {
+color:#fff;</style>
+}-->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+</HEAD>
+
+<BODY>
+les clients
+<a href="../index.html"> page d'accueil</a> <br/>
+<a href="mailto:charlene.hugonin@gmail.com"> contacter par mail</a>  <br/>
+<a href="tel:0656677898">CONTACTER PAR TELEPHONE</a>
+
+<UL> 
+</UL>
+<LI>   LISTE 1   </LI>
+<LI>   LISTE 2   </LI>
+<LI>   LISTE 3   </LI>
+<UL>
+<LI>   LISTE 4   </LI>
+<LI>   LISTE 5   </LI>
+</UL>
+
+LISTE ORDONNEES
+<OL> 
+<OL>
+<LI>   LISTE 1   </LI>
+<LI>   LISTE 2   </LI>
+<LI>   LISTE 3   </LI>
+</OL>
+<LI>   LISTE 4   </LI>
+<LI>   LISTE 5   </LI>
+
+</OL>
+<iframe src="https://www.youtube.com/embed/BZTZiow5fVg"  width="300" height="150"> </iframe>  <br/>
+
+ <br/>
+ <p> introduction informatique </p>
+<table border= "1px">
+<tr>
+<td ROWSPAN="2">LISTE 1</td>
+<td >LISTE 2</td>
+</tr>
+</table> 
+<br/>
+<h1 style="background-color:purple;"> afficher les clients  </h1>
+<form method="post" action="traitement.php">
+<label for="nom">Votre nom</label>
+<input maxlength="5" value="Charlène" type="text" id="nom" name="nom"/>
+<br/><br/>
+<label for="mon texte">Que souhaitez-vous me dire ?</label>
+<textarea name="mon texte" id="mon texte"></textarea>
+<br/><br/>
+<input type="checkbox" id="techno" name="techno"/>
+<label for="techno">Technologie</label>
+<br/><br/>
+<p>
+<input type="radio" id="femme" value= "femme" name="sexe"/>
+<label for="femme">Une femme</label>
+<input CHECKED="CHECKED"type="radio" id="homme" value= "homme" name="sexe"/>
+<label for="homme">Un  homme</label>
+</p>
+ <label for="pays">quel pays venez vous?</label>
+ <Select id="pays" name="pays"> 
+<option value="france"> france    </option>
+<option  value="maroc"> maroc    </option>
+<option value="portugal"> portugal    </option>
+</select> </br>
+<input type="submit" value="envoyer"/>  </br>
+<input type="reset" value="remettre le texte à zero"/>
+<button type="submit" disabled="disabled"> envoyer</button></br>
+ <label for="password">veuillez saisir votre mot de passe:</label><input type="password" id="password" name="password"/> </br>
+ <input type="file" name="myfile"/>
+
+</form>
+</BODY>
+</HTML>
